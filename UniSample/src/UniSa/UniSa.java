@@ -109,7 +109,7 @@ public class UniSa {
 					 choice = "Online";
 				 }
 				 else if (input.toUpperCase().equals("D"))
-			    {
+		 	    {
 					 choice = "In campus";
 				}
 				 
