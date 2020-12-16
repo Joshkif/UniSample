@@ -18,7 +18,7 @@ public class DegreeRunTimeStore implements IDegreeRepository {
 	    	if(onlineDegreeList == null)
 	    		onlineDegreeList = new ArrayList<Degree>();
 	    	    onlineDegreeList.add(new Degree("ITDA","Information Technology and Data Analytics",'O',addOnlineCourses()));
-	    	    onlineDegreeList.add(new Degree("ACC","Accounting",'D',addOnCumpusourses()));
+	    	    onlineDegreeList.add(new Degree("ACC","Accounting",'D',addOnCampusCourses()));
 	   }
 	  
 	  private  Map<String,Course[]> addOnlineCourses()
@@ -37,7 +37,7 @@ public class DegreeRunTimeStore implements IDegreeRepository {
 		   return degreeCourses;
 	  }
 	  
-	  private  Map<String,Course[]> addOnCumpusourses()
+	  private  Map<String,Course[]> addOnCampusCourses()
 	  {
 		  Map<String,Course[]> degreeCourses = new HashMap<String,Course[]>();
 		   Course[] courseList = new Course[8];
