@@ -76,7 +76,7 @@ public class UniSa {
 		        	printDegreeCourses(result);
 		        	break;
  		        }
-		        System.out.println("Your input should be one form the list of degrees");
+		        System.out.println("Your input should be one form the list of degrees provided.");
 	         }
 		   scaner.close();
        }
@@ -99,7 +99,7 @@ public class UniSa {
 	   {
 			 if (filter.size()==0)
 			 {
-				 System.out.println("There are no courses to display, please contact administration of more information.");
+				 System.out.println("There are no courses to display, please contact administration for more information.");
 			 }
 			 else
 			 {
